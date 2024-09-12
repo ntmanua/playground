@@ -3,17 +3,22 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Dogues d'Opale</title>
+        <meta
+            name="description"
+            content="Site officiel des supporters du LOSC de la Côte d'Opale"
+        />
+        <link href="playground.css" rel="stylesheet" />
     </head>
     <body>
         <header>
-            <nav>
-                <img src="./image/mclaren-alt-svgrepo-com.svg" alt="logo" />
-                <ol>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ol>
+            <nav class="navbar">
+                <img class="navbar__logo" src="./image/logo_losc.svg" alt="logo" />
+
+                <a class="navbar__link" href="">ACTUALITÉS</a>
+                <a class="navbar__link" href="">CALENDRIER</a>
+                <a class="navbar__link" href="">BOUTIQUE</a>
+                <form action="/search" method="get"><input type="search" /></form>
             </nav>
         </header>
     </body>
